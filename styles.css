@@ -134,3 +134,27 @@ tr td:last-child {
   color: var(--brown-800);
   font-weight: 600;
 }
+
+@media screen and (max-width: 480px) {
+  body,
+  html {
+    font-size: 12px;
+  }
+  .main {
+    width: 70vw;
+    margin: 4vh 0;
+    padding: 35px;
+  }
+  ol {
+    padding-left: 12px;
+  }
+  hr {
+    margin: 7px 0;
+  }
+  .preparation-time {
+    padding: 12px;
+  }
+  ul {
+    margin-bottom: 5px;
+  }
+}
